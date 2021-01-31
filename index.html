@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <style>
+
+      hr{
+   
+        margin: 3px;
+        border: 3px solid black;
+      }
+
+    </style>
+
+
+
+</head>
+<body>
+
+        <!-- Membuat Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link fs-4 active " aria-current="page" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4 ms-3" href="resume.html">Resume</a>
+                  </li>
+      
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <!-- Carousel Banner -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner.jpg" class="d-block w-100" alt="..." >
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <!-- Container page About -->
+          <div class="container">
+
+            <!-- About - Profile photo -->
+            <div class="row mt-5">
+
+              <div class="col-md-6 text-end" >
+                <img src="images/profile.jpg" alt="profile_photo" class="img-fluid rounded-circle" width="350px">
+              </div>
+              <!-- About - Name & Motto -->
+              <div class="col-md-6 d-flex flex-column justify-content-md-center mt-5">
+                <h3 class="display-4">I'm Suryanto</h3>
+                <hr style="width: 300px;">
+                <h6 class="fs-4 fw-normal">"Curiousity is an advantages"</h6>
+              </div>
+
+            </div>
+
+            <!-- About - short description -->
+            <div class="row mt-5 justify-content-center ">
+
+              <div class="col-8">
+
+              <p>My name is Suryanto and i'm 24 years old. Graduated from Universitas Putera Batam in 2018 as a Bachelor 
+                  in Computer Science. 
+              </p>
+
+              <p>My spesialization was in network management, including web programming that i have been interested certainly. I have a will
+                  to learn new things and huge curiousity about a things that i didn't know before.
+              </p>
+
+              <p>My hobby was brewing a coffee and read any articles about that, and the other things i liked is music 
+                  (which become my passion). I loved to compose music and scrambling musical instrument as well. 
+              </p>
+
+              </div>
+
+            </div>
+
+            <!-- About - sosmed -->
+            <div class="row mt-5 justify-content-center text-center justify">
+
+              <div class="col-md-1 mb-2" >
+                <a href="https://www.facebook.com/suryanto23/" target="_blank" ><img src="images/logo/logo_fb.png" alt=""></a>
+              </div>
+              <div class="col-md-1 mb-2">
+                <a href="https://www.instagram.com/suryanto.id/" target="_blank"><img src="images/logo/logo_ig.png" alt=""></a>
+              </div>
+              <div class="col-md-1 mb-2">
+                <a href="https://github.com/suryanto23" target="_blank"><img src="images/logo/logo_github.png" alt=""></a>
+              </div>
+              <div class="col-md-1 mb-2">
+                <a href="https://www.linkedin.com/in/suryanto-suryanto-68a9921b0/" target="_blank"><img src="images/logo/logo_linkedin.png" alt=""></a>
+              </div>
+
+
+            </div>
+
+            <!-- Countainer About - End -->
+          </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- <div class="container">
+
+        <div class="canvas about">
+
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Profile_Picture">
+            </div>
+
+
+            <div class="title">
+                <h3><strong style="color: rgb(104, 104, 104);">I'm</strong> Suryanto</h3>
+            </div>
+
+            <p class="line">
+                
+            </p>
+
+            <div class="motto">
+                <h4>"Curiousity is an <strong style="color: rgb(104, 104, 104);">advantages"</strong></h4>
+            </div>
+
+
+            <div class="description">
+                <p>My name is Suryanto and i'm 24 years old. Graduated from Universitas Putera Batam in 2018 as a Bachelor 
+                    in Computer Science. 
+                </p>
+                <p>My spesialization was in network management, including web programming that i have been interested certainly. I have a will
+                    to learn new things and huge curiousity about a things that i didn't know before.
+                </p>
+                <p>My hobby was brewing a coffee and read any articles about that, and the other things i liked is music 
+                    (which become my passion). I loved to compose music and scrambling musical instrument as well. </p>
+            </div>
+
+            <div class="sosmed">
+                <a href="https://www.facebook.com/suryanto23/" target="_blank"><img src="images/logo/logo_fb.png" alt=""></a>
+                <a href="https://www.instagram.com/suryanto.id/" target="_blank"><img src="images/logo/logo_ig.png" alt=""></a>
+                <a href="https://github.com/suryanto23" target="_blank"><img src="images/logo/logo_github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/suryanto-suryanto-68a9921b0/" target="_blank"><img src="images/logo/logo_linkedin.png" alt=""></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+    <p>Copyright @ 2021 Suryanto No right reserved</p>
+    </footer> -->
+
+
+
+</body>
+</html>
